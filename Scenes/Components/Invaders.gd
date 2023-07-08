@@ -23,10 +23,14 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta):
+	available_children = $Ships.get_children()
+	check_game_over()
+	
 	if Input.is_action_pressed("move_right"):
 		self.position.x += movement_speed
 	if Input.is_action_pressed("move_left"):
 		self.position.x -= movement_speed
+	
 	if Input.is_action_pressed("shoot") && !shot:
 		var choice: Node2D = available_children[randi() % available_children.size()]
 		choice.get_child(0).shoot()
@@ -34,9 +38,6 @@ func _process(_delta):
 		self.shot = true
 		shoot_timeout.start()
 	
-	available_children = $Ships.get_children()
-	
-	check_game_over()
 	pass
 
 func _on_shoot_timeout_timeout():

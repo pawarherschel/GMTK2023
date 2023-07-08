@@ -63,5 +63,4 @@ scale = Vector2( 2.5, 2.5 )
 [node name="Invaders" parent="." instance=ExtResource( 4 )]
 position = Vector2( 960, 200 )
 
-[connection signal="hero_shot" from="Hero" to="." method="_on_Hero_hero_shot"]
 [connection signal="game_over" from="Invaders" to="." method="_on_Invaders_game_over"]
