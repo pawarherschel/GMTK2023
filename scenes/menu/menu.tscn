@@ -69,10 +69,22 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="ExitButton" type="Button" parent="VBoxContainer"]
+[node name="Credits" type="Button" parent="VBoxContainer"]
 margin_top = 86.0
 margin_right = 200.0
 margin_bottom = 156.0
+rect_min_size = Vector2( 200, 70 )
+focus_neighbour_bottom = NodePath("../ExitButton")
+focus_next = NodePath("../ExitButton")
+text = "CREDITS"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ExitButton" type="Button" parent="VBoxContainer"]
+margin_top = 172.0
+margin_right = 200.0
+margin_bottom = 242.0
 rect_min_size = Vector2( 200, 70 )
 focus_neighbour_top = NodePath("../PlayButton")
 focus_previous = NodePath("../PlayButton")
@@ -150,5 +162,8 @@ text = "Developer 3"
 stream = ExtResource( 2 )
 autoplay = true
 
+[node name="Full Credits Holder" type="Node" parent="."]
+
 [connection signal="pressed" from="VBoxContainer/PlayButton" to="." method="_on_PlayButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/Credits" to="." method="_on_Credits_pressed"]
 [connection signal="pressed" from="VBoxContainer/ExitButton" to="." method="_on_ExitButton_pressed"]

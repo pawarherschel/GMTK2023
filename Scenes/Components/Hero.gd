@@ -8,7 +8,7 @@ onready var invulnerability_timer: Timer = $"Invulnerability Timer"
 onready var hero_hit: AudioStreamPlayer = $hero_hit
 
 export var speed: float = 2
-export var difficulty_multiplier: float = 1.02
+export var difficulty_multiplier: float = 1.05
 
 var vulnerable: bool = true
 
