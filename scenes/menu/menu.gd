@@ -1,5 +1,7 @@
 extends Control
 
+onready var full_credit: PackedScene = preload("res://Scenes/menu/credits.tscn")
+onready var credits_holder: Node = $"Full Credits Holder"
 
 func _ready():
 	$Version/GameVersion.text = ProjectSettings.get_setting("application/config/version")
@@ -34,3 +36,15 @@ func _on_ExitButton_pressed() -> void:
 		yield(transitions.anim, "animation_finished")
 		yield(get_tree().create_timer(0.3), "timeout")
 	get_tree().quit()
+
+
+func _on_Credits_pressed():
+	var credits: Control = full_credit.instance()
+	credits_holder.add_child(credits)
+	pass # Replace with function body.
+
+
+func _on_Credits_button_up():
+	var credits: Control = full_credit.instance()
+	credits_holder.add_child(credits)
+	pass # Replace with function body.
