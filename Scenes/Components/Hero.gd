@@ -5,9 +5,10 @@ signal hero_shot
 onready var bullet_scene: PackedScene = preload("res://Scenes/Components/Bullet.tscn")
 onready var shooting_timer: Timer = $"Shooting Timer"
 onready var invulnerability_timer: Timer = $"Invulnerability Timer"
+onready var hero_hit: AudioStreamPlayer = $hero_hit
 
 export var speed: float = 2
-export var difficulty_multiplier: float = 1.2
+export var difficulty_multiplier: float = 1.02
 
 var vulnerable: bool = true
 
@@ -28,7 +29,8 @@ func _process(_delta):
 	pass
 
 
-func _on_Area2D_body_entered(_body):
+func _on_Area2D_body_entered(body):
+	body.queue_free()
 	if vulnerable:
 		level_over()
 	pass # Replace with function body.
@@ -44,6 +46,8 @@ func respawn():
 	var x: float = shooting_timer.wait_time
 	shooting_timer.wait_time = x * 1 / m
 	vulnerable = false
+	hero_hit.play()
+	self.modulate.a = 0.5
 	invulnerability_timer.start()
 	pass
 
@@ -57,6 +61,9 @@ func shoot():
 	bullet.flipped = false
 	bullet.will_hit = bullet.WILL_HIT.INVADER
 	bullet.global_position = self.global_position  
+	bullet.modulate.r8 = 126
+	bullet.modulate.g8 = 64
+	bullet.modulate.b8 = 64
 	
 	var bullets_layer: Array = get_tree().get_nodes_in_group("bullets_layer")
 #	print(bullets_layer)
@@ -66,4 +73,5 @@ func shoot():
 
 func _on_Invulnerability_Timer_timeout():
 	vulnerable = true
+	self.modulate.a = 1
 	pass # Replace with function body.

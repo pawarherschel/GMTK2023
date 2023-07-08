@@ -12,3 +12,4 @@ builds
 
 # OSX 
 .DS_Store
+Assets/sounds/*

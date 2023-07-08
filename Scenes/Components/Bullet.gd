@@ -5,6 +5,8 @@ extends RigidBody2D
 # var a = 2
 # var b = "text"
 
+onready var bullet_fired: AudioStreamPlayer = $bullet_fired
+
 export var speed: int = 550
 export var flipped: bool = true
 
@@ -21,11 +23,20 @@ func _ready():
 	if flipped:
 		self.rotation_degrees = 0
 	self.collision_layer = will_hit
+	
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	if !bullet_fired:
+		if !bullet_fired.playing:
+			bullet_fired.play()
+	pass
 
 func _on_VisibilityNotifier2D_screen_exited():
 	self.queue_free()
+
+
+func _on_bullet_fired_finished():
+	bullet_fired.queue_free()
+	pass # Replace with function body.

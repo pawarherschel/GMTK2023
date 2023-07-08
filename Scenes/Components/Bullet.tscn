@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://Assets/kenney_pixel-shmup/Tiles/tile_0003.png" type="Texture" id=1]
 [ext_resource path="res://Scenes/Components/Bullet.gd" type="Script" id=2]
+[ext_resource path="res://Assets/sounds/Gun 19_2.wav" type="AudioStream" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 8.0
@@ -26,4 +27,10 @@ texture = ExtResource( 1 )
 position = Vector2( 0, 4.17233e-07 )
 scale = Vector2( 0.8, 0.8 )
 
+[node name="bullet_fired" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+volume_db = -20.0
+autoplay = true
+
 [connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+[connection signal="finished" from="bullet_fired" to="." method="_on_bullet_fired_finished"]

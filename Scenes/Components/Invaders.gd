@@ -8,6 +8,7 @@ signal game_over
 
 onready var available_children: Array = $Ships.get_children()
 onready var shoot_timeout: Timer = $shoot_timeout
+onready var invader_hit: AudioStreamPlayer = $invader_hit
 
 export var movement_speed: int = 2
 export var seconds_between_shots: float = 0.1
@@ -31,7 +32,7 @@ func _process(_delta):
 	if Input.is_action_pressed("move_left"):
 		self.position.x -= movement_speed
 	
-	if Input.is_action_pressed("shoot") && !shot:
+	if (Input.is_action_pressed("shoot")) && (!shot) && (!available_children.empty()):
 		var choice: Node2D = available_children[randi() % available_children.size()]
 		choice.get_child(0).shoot()
 		GlobalState.update_target(choice)
@@ -46,6 +47,7 @@ func _on_shoot_timeout_timeout():
 
 
 func _on_invader_shot():
+	invader_hit.play()
 	available_children = $Ships.get_children()
 	check_game_over()
 	pass # Replace with function body.
