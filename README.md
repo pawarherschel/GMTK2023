@@ -55,7 +55,7 @@ $$
 
 ![[Attachment/Pasted image 20230708003757.png]]
 
-Seeing concept image for the game. 
+Seeing concept image for the game
 
 ![[Attachment/Pasted image 20230708182857.png]]
 
@@ -64,6 +64,10 @@ shooting works, 1080p resolution, score works
 ![[Attachment/Pasted image 20230708183352.png]]
 
 added canvas modulate + you can see the score in console 
+
+![image](https://github.com/pawarherschel/GMTK2023/assets/93267442/20f73699-80f3-4e5d-8baf-ab6cbebb2925)
+
+final product ig
 
 ---
 
