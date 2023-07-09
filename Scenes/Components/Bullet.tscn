@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://assets/temp/Gun 19_2.wav" type="AudioStream" id=1]
+[ext_resource path="res://assets/temp/gun 19_2.wav" type="AudioStream" id=1]
 [ext_resource path="res://scenes/components/Bullet.gd" type="Script" id=2]
 [ext_resource path="res://assets/kenney_pixel-shmup/Tiles/tile_0003.png" type="Texture" id=3]
 

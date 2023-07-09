@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/LOOP_Race to the Finish.wav-de6e4bd88f2348bada56b21a9a3f0371.sample"
+path="res://.import/loop_race to the finish.wav-53b867a84fcfc9e943ab39d152d258cb.sample"
 
 [deps]
 
-source_file="res://assets/temp/LOOP_Race to the Finish.wav"
-dest_files=[ "res://.import/LOOP_Race to the Finish.wav-de6e4bd88f2348bada56b21a9a3f0371.sample" ]
+source_file="res://assets/temp/loop_race to the finish.wav"
+dest_files=[ "res://.import/loop_race to the finish.wav-53b867a84fcfc9e943ab39d152d258cb.sample" ]
 
 [params]
 

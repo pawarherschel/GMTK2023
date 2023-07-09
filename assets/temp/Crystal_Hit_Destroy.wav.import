@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Crystal_Hit_Destroy.wav-3b2842141d5e219e9331304dfd9c8289.sample"
+path="res://.import/crystal_hit_destroy.wav-ce913af95e916f7fd4d8b21c3a0055a2.sample"
 
 [deps]
 
-source_file="res://assets/temp/Crystal_Hit_Destroy.wav"
-dest_files=[ "res://.import/Crystal_Hit_Destroy.wav-3b2842141d5e219e9331304dfd9c8289.sample" ]
+source_file="res://assets/temp/crystal_hit_destroy.wav"
+dest_files=[ "res://.import/crystal_hit_destroy.wav-ce913af95e916f7fd4d8b21c3a0055a2.sample" ]
 
 [params]
 

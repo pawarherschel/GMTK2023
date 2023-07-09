@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/LOOP_No Holding Back.wav-4e2871689025fe96240d6d340f61d4da.sample"
+path="res://.import/loop_no holding back.wav-e7fdb36fa3ae33e6fec197f7ee102794.sample"
 
 [deps]
 
-source_file="res://assets/temp/LOOP_No Holding Back.wav"
-dest_files=[ "res://.import/LOOP_No Holding Back.wav-4e2871689025fe96240d6d340f61d4da.sample" ]
+source_file="res://assets/temp/loop_no holding back.wav"
+dest_files=[ "res://.import/loop_no holding back.wav-e7fdb36fa3ae33e6fec197f7ee102794.sample" ]
 
 [params]
 

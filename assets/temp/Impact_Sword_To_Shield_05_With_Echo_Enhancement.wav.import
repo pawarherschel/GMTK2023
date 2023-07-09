@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/Impact_Sword_To_Shield_05_With_Echo_Enhancement.wav-344f57a3fcc2e009a960d2da244a282b.sample"
+path="res://.import/impact_sword_to_shield_05_with_echo_enhancement.wav-2c95bb82882c81e25240b4affcbc7c16.sample"
 
 [deps]
 
-source_file="res://assets/temp/Impact_Sword_To_Shield_05_With_Echo_Enhancement.wav"
-dest_files=[ "res://.import/Impact_Sword_To_Shield_05_With_Echo_Enhancement.wav-344f57a3fcc2e009a960d2da244a282b.sample" ]
+source_file="res://assets/temp/impact_sword_to_shield_05_with_echo_enhancement.wav"
+dest_files=[ "res://.import/impact_sword_to_shield_05_with_echo_enhancement.wav-2c95bb82882c81e25240b4affcbc7c16.sample" ]
 
 [params]
 
