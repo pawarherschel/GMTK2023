@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/numbers spritesheet.png-b2e48a22eea2d932b99c6b4ff8bdf38d.stex"
+path="res://.import/numbers spritesheet.png-2338ed7179762848c6c7b2bc03e5ffb5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/kenney_pixel-shmup/Tiles/bitmap number glyphs/numbers spritesheet.png"
-dest_files=[ "res://.import/numbers spritesheet.png-b2e48a22eea2d932b99c6b4ff8bdf38d.stex" ]
+source_file="res://assets/kenney_pixel-shmup/Tiles/bitmap number glyphs/numbers spritesheet.png"
+dest_files=[ "res://.import/numbers spritesheet.png-2338ed7179762848c6c7b2bc03e5ffb5.stex" ]
 
 [params]
 

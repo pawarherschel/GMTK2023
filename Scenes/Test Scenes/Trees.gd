@@ -1,6 +1,6 @@
 extends TileMap
 
-export var noise_texture: NoiseTexture =  preload("res://Resources/noise_texture.tres")
+export var noise_texture: NoiseTexture =  preload("res://resources/noise_texture.tres")
 var texture: Image
 
 # Declare member variables here. Examples:

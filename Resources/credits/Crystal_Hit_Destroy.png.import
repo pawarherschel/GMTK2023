@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Crystal_Hit_Destroy.png-7abadc64f89ed192c59dbf228def110e.stex"
+path="res://.import/Crystal_Hit_Destroy.png-179cb0827a93480a02d6af02e878d287.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/credits/Crystal_Hit_Destroy.png"
-dest_files=[ "res://.import/Crystal_Hit_Destroy.png-7abadc64f89ed192c59dbf228def110e.stex" ]
+source_file="res://resources/credits/Crystal_Hit_Destroy.png"
+dest_files=[ "res://.import/Crystal_Hit_Destroy.png-179cb0827a93480a02d6af02e878d287.stex" ]
 
 [params]
 

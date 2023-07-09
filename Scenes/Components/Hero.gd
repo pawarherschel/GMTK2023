@@ -2,7 +2,7 @@ extends Node2D
 
 signal hero_shot
 
-onready var bullet_scene: PackedScene = preload("res://Scenes/Components/Bullet.tscn")
+onready var bullet_scene: PackedScene = preload("res://scenes/components/Bullet.tscn")
 onready var shooting_timer: Timer = $"Shooting Timer"
 onready var invulnerability_timer: Timer = $"Invulnerability Timer"
 onready var hero_hit: AudioStreamPlayer = $hero_hit

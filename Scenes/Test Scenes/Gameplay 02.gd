@@ -4,7 +4,7 @@ extends Node2D
 onready var invaders = $Invaders
 onready var bullets = $Bullets
 #
-#onready var score: PackedScene = preload("res://Scenes/Components/Score.tscn")
+#onready var score: PackedScene = preload("res://scenes/components/Score.tscn")
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -35,6 +35,6 @@ func _on_Invaders_game_over():
 	bullets.queue_free()
 	invaders.queue_free()
 	
-	Game.change_scene("res://Scenes/Components/Score.tscn")
+	Game.change_scene("res://scenes/components/Score.tscn")
 	
 	pass # Replace with function body.

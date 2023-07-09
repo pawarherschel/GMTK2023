@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/LOOP_Race to the Finish.png-2d8662b6013f8e68ab9d05b23880c490.stex"
+path="res://.import/LOOP_Race to the Finish.png-4760d0f90d3d5b9ae09f3a371b7d7dde.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/credits/LOOP_Race to the Finish.png"
-dest_files=[ "res://.import/LOOP_Race to the Finish.png-2d8662b6013f8e68ab9d05b23880c490.stex" ]
+source_file="res://resources/credits/LOOP_Race to the Finish.png"
+dest_files=[ "res://.import/LOOP_Race to the Finish.png-4760d0f90d3d5b9ae09f3a371b7d7dde.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/LOOP_No Holding Back.png-ad148d78567f6153325370f53a64b30c.stex"
+path="res://.import/LOOP_No Holding Back.png-f7da28f5bdb1e772a40a907aef8752b7.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/credits/LOOP_No Holding Back.png"
-dest_files=[ "res://.import/LOOP_No Holding Back.png-ad148d78567f6153325370f53a64b30c.stex" ]
+source_file="res://resources/credits/LOOP_No Holding Back.png"
+dest_files=[ "res://.import/LOOP_No Holding Back.png-f7da28f5bdb1e772a40a907aef8752b7.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tile_0087.png-d14420f87aadf3dcbca91a28497131a0.stex"
+path="res://.import/tile_0087.png-2fada208c729f5d6494304bcdd02076e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/kenney_pixel-shmup/Tiles/tile_0087.png"
-dest_files=[ "res://.import/tile_0087.png-d14420f87aadf3dcbca91a28497131a0.stex" ]
+source_file="res://assets/kenney_pixel-shmup/Tiles/tile_0087.png"
+dest_files=[ "res://.import/tile_0087.png-2fada208c729f5d6494304bcdd02076e.stex" ]
 
 [params]
 

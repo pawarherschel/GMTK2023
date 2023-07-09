@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ship_0003.png-a5612682a1bf89b6567cbf434e4ac8ea.stex"
+path="res://.import/ship_0003.png-ff72775361e8de3c49be0ca9fb66be98.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/kenney_pixel-shmup/Ships/ship_0003.png"
-dest_files=[ "res://.import/ship_0003.png-a5612682a1bf89b6567cbf434e4ac8ea.stex" ]
+source_file="res://assets/kenney_pixel-shmup/Ships/ship_0003.png"
+dest_files=[ "res://.import/ship_0003.png-ff72775361e8de3c49be0ca9fb66be98.stex" ]
 
 [params]
 

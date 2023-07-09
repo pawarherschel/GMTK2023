@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Assets/ui-theme.tres" type="Theme" id=1]
-[ext_resource path="res://Scenes/Components/Score.gd" type="Script" id=2]
+[ext_resource path="res://assets/ui-theme.tres" type="Theme" id=1]
+[ext_resource path="res://scenes/components/Score.gd" type="Script" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0

@@ -6,7 +6,7 @@ signal invader_shot
 # var a = 2
 # var b = "text"
 
-onready var bullet_scene: PackedScene = preload("res://Scenes/Components/Bullet.tscn")
+onready var bullet_scene: PackedScene = preload("res://scenes/components/Bullet.tscn")
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

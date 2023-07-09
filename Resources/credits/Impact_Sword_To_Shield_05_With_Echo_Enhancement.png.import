@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Impact_Sword_To_Shield_05_With_Echo_Enhancement.png-8da67a367888fca3e9999e43e356c4db.stex"
+path="res://.import/Impact_Sword_To_Shield_05_With_Echo_Enhancement.png-01e1836091226bc04a040f1ff22a2050.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Resources/credits/Impact_Sword_To_Shield_05_With_Echo_Enhancement.png"
-dest_files=[ "res://.import/Impact_Sword_To_Shield_05_With_Echo_Enhancement.png-8da67a367888fca3e9999e43e356c4db.stex" ]
+source_file="res://resources/credits/Impact_Sword_To_Shield_05_With_Echo_Enhancement.png"
+dest_files=[ "res://.import/Impact_Sword_To_Shield_05_With_Echo_Enhancement.png-01e1836091226bc04a040f1ff22a2050.stex" ]
 
 [params]
 
