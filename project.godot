@@ -36,7 +36,7 @@ config/name="Cosmos Conquerors"
 run/main_scene="res://scenes/menu/menu.tscn"
 boot_splash/image="res://assets/splash.png"
 boot_splash/bg_color=Color( 0.0862745, 0.0862745, 0.0862745, 1 )
-config/icon="res://assets/sprites/icon.png"
+config/icon="res://Resources/tile_0006.png"
 config/version="1.0.0"
 
 [autoload]
