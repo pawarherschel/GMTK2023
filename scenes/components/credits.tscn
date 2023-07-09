@@ -1,14 +1,14 @@
 [gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://scenes/components/credits.gd" type="Script" id=1]
-[ext_resource path="res://resources/credits_images/pixel shmup by kenny.png" type="Texture" id=2]
-[ext_resource path="res://resources/credits_images/loop_race to the finish.png" type="Texture" id=3]
-[ext_resource path="res://resources/credits_images/gun 19_2.png" type="Texture" id=4]
+[ext_resource path="res://resources/credits_images/loopnoholdingback.png" type="Texture" id=2]
+[ext_resource path="res://resources/credits_images/godotgametemplate.png" type="Texture" id=3]
+[ext_resource path="res://resources/credits_images/crystalhitdestroy.png" type="Texture" id=4]
 [ext_resource path="res://resources/credits_images/bitmaptexturefont.png" type="Texture" id=5]
-[ext_resource path="res://resources/credits_images/impact_sword_to_shield_05_with_echo_enhancement.png" type="Texture" id=6]
-[ext_resource path="res://resources/credits_images/loop_no holding back.png" type="Texture" id=7]
-[ext_resource path="res://resources/credits_images/crystal_hit_destroy.png" type="Texture" id=8]
-[ext_resource path="res://resources/credits_images/godot-game-template.png" type="Texture" id=9]
+[ext_resource path="res://resources/credits_images/gun192.png" type="Texture" id=6]
+[ext_resource path="res://resources/credits_images/impactswordtoshield05withechoenhancement.png" type="Texture" id=7]
+[ext_resource path="res://resources/credits_images/loopracetothefinish.png" type="Texture" id=8]
+[ext_resource path="res://resources/credits_images/pixelshmupbykenny.png" type="Texture" id=9]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -33,47 +33,47 @@ margin_right = 1147.0
 margin_bottom = 102.0
 texture = ExtResource( 5 )
 
-[node name="CrystalHitDestroy" type="TextureRect" parent="VBoxContainer/GridContainer"]
+[node name="Crystalhitdestroy" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 106.0
 margin_right = 1147.0
 margin_bottom = 208.0
-texture = ExtResource( 8 )
+texture = ExtResource( 4 )
 
-[node name="Godot-game-template" type="TextureRect" parent="VBoxContainer/GridContainer"]
+[node name="Godotgametemplate" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 212.0
 margin_right = 1147.0
 margin_bottom = 334.0
-texture = ExtResource( 9 )
+texture = ExtResource( 3 )
 
 [node name="Gun192" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 338.0
 margin_right = 1147.0
 margin_bottom = 419.0
-texture = ExtResource( 4 )
+texture = ExtResource( 6 )
 
-[node name="ImpactSwordToShield05WithEchoEnhancement" type="TextureRect" parent="VBoxContainer/GridContainer"]
+[node name="Impactswordtoshield05Withechoenhancement" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 423.0
 margin_right = 1147.0
 margin_bottom = 525.0
-texture = ExtResource( 6 )
+texture = ExtResource( 7 )
 
-[node name="LoopNoHoldingBack" type="TextureRect" parent="VBoxContainer/GridContainer"]
+[node name="Loopnoholdingback" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 529.0
 margin_right = 1147.0
 margin_bottom = 610.0
-texture = ExtResource( 7 )
+texture = ExtResource( 2 )
 
-[node name="LoopRaceToTheFinish" type="TextureRect" parent="VBoxContainer/GridContainer"]
+[node name="Loopracetothefinish" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 614.0
 margin_right = 1147.0
 margin_bottom = 695.0
-texture = ExtResource( 3 )
+texture = ExtResource( 8 )
 
-[node name="PixelShmupByKenny" type="TextureRect" parent="VBoxContainer/GridContainer"]
+[node name="Pixelshmupbykenny" type="TextureRect" parent="VBoxContainer/GridContainer"]
 margin_top = 699.0
 margin_right = 1147.0
 margin_bottom = 933.0
-texture = ExtResource( 2 )
+texture = ExtResource( 9 )
 
 [node name="Button" type="Button" parent="VBoxContainer"]
 margin_top = 937.0
