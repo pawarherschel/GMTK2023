@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scenes/components/hero.gd" type="Script" id=1]
-[ext_resource path="res://assets/kenney_pixel-shmup/Tilemap/ships.png" type="Texture" id=2]
+[ext_resource path="res://resources/ships.png" type="Texture" id=2]
 [ext_resource path="res://assets/sfx and sounds/crystal_hit_destroy.wav" type="AudioStream" id=3]
 
 [sub_resource type="AtlasTexture" id=1]
