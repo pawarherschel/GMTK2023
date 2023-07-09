@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/crystal_hit_destroy.wav-a2313ea302ba86ae8ac78cefd6e66642.sample"
+
+[deps]
+
+source_file="res://assets/sfx and sounds/crystal_hit_destroy.wav"
+dest_files=[ "res://.import/crystal_hit_destroy.wav-a2313ea302ba86ae8ac78cefd6e66642.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
