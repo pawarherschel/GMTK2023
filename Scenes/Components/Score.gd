@@ -25,10 +25,10 @@ func _ready():
 
 
 func _on_Retry_pressed():
-	Game.change_scene("res://Scenes/gameplay/gameplay.tscn")
+	Game.change_scene("res://scenes/gameplay/gameplay.tscn")
 	pass # Replace with function body.
 
 
 func _on_MainMenu_pressed():
-	Game.change_scene("res://Scenes/menu/menu.tscn")
+	Game.change_scene("res://scenes/menu/menu.tscn")
 	pass # Replace with function body.
