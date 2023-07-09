@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/LOOP_Race to the Finish.wav-de6e4bd88f2348bada56b21a9a3f0371.sample"
+
+[deps]
+
+source_file="res://assets/temp/LOOP_Race to the Finish.wav"
+dest_files=[ "res://.import/LOOP_Race to the Finish.wav-de6e4bd88f2348bada56b21a9a3f0371.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

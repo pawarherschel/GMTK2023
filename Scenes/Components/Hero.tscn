@@ -2,7 +2,7 @@
 
 [ext_resource path="res://assets/kenney_pixel-shmup/Tilemap/ships.png" type="Texture" id=1]
 [ext_resource path="res://scenes/components/Hero.gd" type="Script" id=2]
-[ext_resource path="res://assets/sounds/Crystal_Hit_Destroy.wav" type="AudioStream" id=3]
+[ext_resource path="res://assets/temp/Crystal_Hit_Destroy.wav" type="AudioStream" id=3]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 1 )

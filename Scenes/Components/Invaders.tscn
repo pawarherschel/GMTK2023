@@ -10,7 +10,7 @@
 [ext_resource path="res://scenes/components/invader/Red 01.tscn" type="PackedScene" id=8]
 [ext_resource path="res://scenes/components/invader/Red 02.tscn" type="PackedScene" id=9]
 [ext_resource path="res://scenes/components/Invaders.gd" type="Script" id=10]
-[ext_resource path="res://assets/sounds/Impact_Sword_To_Shield_05_With_Echo_Enhancement.wav" type="AudioStream" id=11]
+[ext_resource path="res://assets/temp/Impact_Sword_To_Shield_05_With_Echo_Enhancement.wav" type="AudioStream" id=11]
 
 [node name="Invaders" type="Node2D"]
 position = Vector2( 960, 540 )
