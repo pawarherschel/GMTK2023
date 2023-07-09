@@ -13,3 +13,7 @@ func update_target(t: Node2D):
 var score: int = 0
 var target: float
 var hero_deaths: int = 0
+
+func reset():
+	score = 0
+	hero_deaths = 0

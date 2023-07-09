@@ -1,5 +1,57 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/ui-theme.tres" type="Theme" id=1]
+[ext_resource path="res://Scenes/Components/Score.gd" type="Script" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+theme = ExtResource( 1 )
+script = ExtResource( 2 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0.176471, 0.682353, 0.647059, 1 )
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_left = 767.0
+margin_top = 441.0
+margin_right = 1153.0
+margin_bottom = 638.0
+
+[node name="Label2" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_right = 386.0
+margin_bottom = 34.0
+text = "game over"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer"]
+margin_top = 38.0
+margin_right = 386.0
+margin_bottom = 109.0
+text = "You got ____ Score!
+you managed to defeat ____ Heros!"
+align = 1
+valign = 1
+
+[node name="Retry" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 113.0
+margin_right = 386.0
+margin_bottom = 153.0
+text = "Retry"
+
+[node name="MainMenu" type="Button" parent="CenterContainer/VBoxContainer"]
+margin_top = 157.0
+margin_right = 386.0
+margin_bottom = 197.0
+text = "Main Menu"
+
+[connection signal="pressed" from="CenterContainer/VBoxContainer/Retry" to="." method="_on_Retry_pressed"]
+[connection signal="pressed" from="CenterContainer/VBoxContainer/MainMenu" to="." method="_on_MainMenu_pressed"]
