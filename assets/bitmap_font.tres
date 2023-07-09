@@ -1,6 +1,6 @@
 [gd_resource type="BitmapFont" load_steps=3 format=2]
 
-[ext_resource path="res://assets/kenney_pixel-shmup/tiles/bitmap number glyphs/numbers spritesheet.png" type="Texture" id=1]
+[ext_resource path="res://resources/tilemaps/numbersspritesheet.png" type="Texture" id=1]
 [ext_resource path="res://addons/BitmapTextureFont/main.gd" type="Script" id=2]
 
 [resource]
