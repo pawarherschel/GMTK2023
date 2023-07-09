@@ -2,7 +2,7 @@
 
 [ext_resource path="res://scenes/test scenes/Gameplay 02.gd" type="Script" id=1]
 [ext_resource path="res://assets/kenney_pixel-shmup/tiles/tile_0110.png" type="Texture" id=2]
-[ext_resource path="res://resources/tilemaps/pixel shmup tiles.tres" type="TileSet" id=3]
+[ext_resource path="res://resources/tilemaps/bgtiles.tres" type="TileSet" id=3]
 [ext_resource path="res://scenes/components/Invaders.tscn" type="PackedScene" id=4]
 [ext_resource path="res://scenes/components/Hero.tscn" type="PackedScene" id=5]
 [ext_resource path="res://resources/global_ui_theme.tres" type="Theme" id=6]
