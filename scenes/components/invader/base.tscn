@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/kenney_pixel-shmup/Tilemap/ships.png" type="Texture" id=1]
-[ext_resource path="res://scenes/temp/invader/base.gd" type="Script" id=2]
+[ext_resource path="res://scenes/components/invader/base.gd" type="Script" id=2]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 1 )
