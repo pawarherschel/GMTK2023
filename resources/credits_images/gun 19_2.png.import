@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/godot-game-template.png-a8c97be0dbd6632239187e52b94f3055.stex"
+path="res://.import/gun 19_2.png-a11cdf63072cff4626891f1b77751d40.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/credits/godot-game-template.png"
-dest_files=[ "res://.import/godot-game-template.png-a8c97be0dbd6632239187e52b94f3055.stex" ]
+source_file="res://resources/credits_images/gun 19_2.png"
+dest_files=[ "res://.import/gun 19_2.png-a11cdf63072cff4626891f1b77751d40.stex" ]
 
 [params]
 

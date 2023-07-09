@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Gun 19_2.png-af90c0934198007369f5b6769d39c486.stex"
+path="res://.import/impact_sword_to_shield_05_with_echo_enhancement.png-fbbe1fcc6c601378178048460c6174a6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/credits/Gun 19_2.png"
-dest_files=[ "res://.import/Gun 19_2.png-af90c0934198007369f5b6769d39c486.stex" ]
+source_file="res://resources/credits_images/impact_sword_to_shield_05_with_echo_enhancement.png"
+dest_files=[ "res://.import/impact_sword_to_shield_05_with_echo_enhancement.png-fbbe1fcc6c601378178048460c6174a6.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BitmapTextureFont.png-35c225c567afead0bb7049b01553e8d7.stex"
+path="res://.import/loop_no holding back.png-b9179b52f9bbd1a47dd03fba0df041ec.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/credits/BitmapTextureFont.png"
-dest_files=[ "res://.import/BitmapTextureFont.png-35c225c567afead0bb7049b01553e8d7.stex" ]
+source_file="res://resources/credits_images/loop_no holding back.png"
+dest_files=[ "res://.import/loop_no holding back.png-b9179b52f9bbd1a47dd03fba0df041ec.stex" ]
 
 [params]
 
