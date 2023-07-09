@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/sprites/grassbg.png" type="Texture" id=2]
 [ext_resource path="res://resources/tilemaps/bgtiles.tres" type="TileSet" id=3]
 [ext_resource path="res://scenes/components/Invaders.tscn" type="PackedScene" id=4]
-[ext_resource path="res://scenes/components/hero.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/temp/hero.tscn" type="PackedScene" id=5]
 [ext_resource path="res://resources/global_ui_theme.tres" type="Theme" id=6]
 
 [node name="Node2D" type="Node2D"]
@@ -60,12 +60,12 @@ tile_data = PoolIntArray( -262075, 1, 0, -262073, 1, 3, -262072, 1, 131073, -262
 
 [node name="Bullets" type="Node2D" parent="." groups=["bullets_layer"]]
 
-[node name="Hero" parent="." instance=ExtResource( 5 )]
+[node name="hero" parent="." instance=ExtResource( 5 )]
 position = Vector2( 960, 900 )
 scale = Vector2( 2.5, 2.5 )
 
-[node name="Invaders" parent="." instance=ExtResource( 4 )]
+[node name="invaders" parent="." instance=ExtResource( 4 )]
 position = Vector2( 960, 200 )
 
-[connection signal="hero_shot" from="Hero" to="." method="_on_Hero_hero_shot"]
-[connection signal="game_over" from="Invaders" to="." method="_on_Invaders_game_over"]
+[connection signal="hero_shot" from="hero" to="." method="_on_Hero_hero_shot"]
+[connection signal="game_over" from="invaders" to="." method="_on_Invaders_game_over"]

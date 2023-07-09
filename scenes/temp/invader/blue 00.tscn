@@ -1,14 +1,14 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://scenes/components/invader/base.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/temp/invader/base.tscn" type="PackedScene" id=1]
 [ext_resource path="res://assets/kenney_pixel-shmup/Tilemap/ships.png" type="Texture" id=2]
-[ext_resource path="res://scenes/components/invader/blue 00.gd" type="Script" id=3]
+[ext_resource path="res://scenes/temp/invader/blue 00.gd" type="Script" id=3]
 
 [sub_resource type="AtlasTexture" id=1]
 atlas = ExtResource( 2 )
-region = Rect2( 99, 4, 32, 23 )
+region = Rect2( 0, 4, 32, 24 )
 
-[node name="Yellow 00" type="Node2D"]
+[node name="Blue 00" type="Node2D"]
 script = ExtResource( 3 )
 
 [node name="Invader Base" parent="." instance=ExtResource( 1 )]
