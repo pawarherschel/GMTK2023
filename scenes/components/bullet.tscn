@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/sfx and sounds/gun 19_2.wav" type="AudioStream" id=1]
+[ext_resource path="res://scenes/components/bullet.gd" type="Script" id=2]
 [ext_resource path="res://assets/kenney_pixel-shmup/tiles/tile_0003.png" type="Texture" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
@@ -12,6 +13,7 @@ collision_layer = 0
 collision_mask = 0
 gravity_scale = 0.0
 linear_velocity = Vector2( 0, 550 )
+script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
