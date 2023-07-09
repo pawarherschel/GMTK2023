@@ -1,6 +1,6 @@
 extends Control
 
-onready var full_credit: PackedScene = preload("res://scenes/menu/credits.tscn")
+onready var full_credit: PackedScene = preload("res://scenes/components/credits.tscn")
 onready var credits_holder: Node = $"Full Credits Holder"
 
 func _ready():
